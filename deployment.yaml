@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: spring-petclinic
-        image: devopsship/spring-petclinic:latest
+        image: devopsship/spring-petclinic:1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
